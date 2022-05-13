@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigationdrawer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/skyblue">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="132dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo1">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aictehome1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="180dp">
+
+            <ImageView
+                android:id="@+id/home_image"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/home_button" />
+
+            <TextView
+                android:id="@+id/aicte_text"
+                android:layout_width="229dp"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:text="AICTE HOME"
+                android:textColor="#121111"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dashboardmove"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="240dp">
+
+
+            <ImageView
+                android:id="@+id/dash_board"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/dashboard" />
+
+            <TextView
+                android:id="@+id/dashboard"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:text="Dashboard"
+                android:textColor="#121111"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/approved_college_list"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="300dp">
+
+
+            <ImageView
+                android:id="@+id/total_institute"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/totalinstitue2">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/approved_college"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:text="Approved Institutes"
+                android:textColor="#121111"
+                android:textSize="18sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nripio1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="360dp">
+
+            <ImageView
+                android:id="@+id/nripio"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nripio">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/nri_pio"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:text="NRI/PIO-FN-CIWG?TP"
+                android:textColor="#121111"
+
+                android:textSize="18sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/closedcourses1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="420dp">
+
+            <ImageView
+                android:id="@+id/nav_closed_course"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+
+                app:srcCompat="@drawable/closedcourses" />
+
+            <TextView
+                android:id="@+id/closed_courses"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:text="Closed Courses"
+                android:textColor="#121111"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/closedinstitute1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="480dp">
+
+            <ImageView
+                android:id="@+id/nav_closed_institute"
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+
+                app:srcCompat="@drawable/closedinstitutes">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/closed_institute"
+                android:layout_width="222dp"
+                android:layout_height="match_parent"
+                android:paddingTop="14dp"
+                android:text="Unapproved Institutes"
+                android:textColor="#121111"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
